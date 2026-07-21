@@ -47,6 +47,7 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
+        "installer_type",
         "available",
         "file_name",
         "origin_url",
@@ -55,6 +56,9 @@
         "min_os"
       ],
       "properties": {
+        "installer_type": {
+          "enum": ["windows-exe", "windows-msi", "macos-dmg", "macos-pkg"]
+        },
         "available": { "type": "boolean" },
         "file_name": {
           "type": ["string", "null"],

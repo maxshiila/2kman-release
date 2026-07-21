@@ -8,6 +8,7 @@
   "release_notes": null,
   "platforms": {
     "windows-x64": {
+      "installer_type": "windows-exe",
       "available": false,
       "file_name": null,
       "origin_url": null,
@@ -16,6 +17,7 @@
       "min_os": "Windows 10 x64"
     },
     "macos-arm64": {
+      "installer_type": "macos-dmg",
       "available": false,
       "file_name": null,
       "origin_url": null,
@@ -24,6 +26,7 @@
       "min_os": "macOS 13"
     },
     "macos-x64": {
+      "installer_type": "macos-dmg",
       "available": false,
       "file_name": null,
       "origin_url": null,

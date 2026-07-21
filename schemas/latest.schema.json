@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://updates.2kman.com/schemas/latest.schema.json",
+  "title": "2KMAN Production latest manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "channel",
+    "status",
+    "version",
+    "published_at",
+    "release_page",
+    "release_notes",
+    "platforms"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "channel": { "enum": ["stable", "beta"] },
+    "status": { "enum": ["draft", "published"] },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:[-+][0-9A-Za-z.-]+)?$"
+    },
+    "published_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "release_page": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "release_notes": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "platforms": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "#/$defs/platform"
+      }
+    }
+  },
+  "$defs": {
+    "platform": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "available",
+        "file_name",
+        "origin_url",
+        "sha256",
+        "size_bytes",
+        "min_os"
+      ],
+      "properties": {
+        "available": { "type": "boolean" },
+        "file_name": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "origin_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "sha256": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "size_bytes": {
+          "type": ["integer", "null"],
+          "minimum": 1
+        },
+        "min_os": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

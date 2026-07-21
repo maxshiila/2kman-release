@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "channel": "stable",
+  "status": "draft",
+  "version": "0.1.0",
+  "published_at": null,
+  "release_page": null,
+  "release_notes": null,
+  "platforms": {
+    "windows-x64": {
+      "available": false,
+      "file_name": null,
+      "origin_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "min_os": "Windows 10 x64"
+    },
+    "macos-arm64": {
+      "available": false,
+      "file_name": null,
+      "origin_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "min_os": "macOS 13"
+    },
+    "macos-x64": {
+      "available": false,
+      "file_name": null,
+      "origin_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "min_os": "macOS 13"
+    }
+  }
+}

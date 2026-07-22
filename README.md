@@ -25,4 +25,8 @@
 
 ## 当前状态
 
-当前 `latest.json` 是契约占位，尚未指向可下载工件。不要把 `status: draft` 的清单提供给正式客户端作为可更新版本。
+当前 `latest.json` 已发布 2KMAN 0.0.1 Windows 工件；macOS 条目仍不可用。只有 status: published 且平台 available=true 的条目才会提供给正式客户端。
+
+## 0.0.1 版本文档
+
+- Windows 0.0.1 Release Notes：RELEASE-NOTES-0.0.1.md

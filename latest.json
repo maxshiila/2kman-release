@@ -12,8 +12,8 @@
       "available": true,
       "file_name": "2KMAN-0.0.1-win-x64.exe",
       "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.0.1/2KMAN-0.0.1-win-x64.exe",
-      "sha256": "37D9791D8929E3BD4760D62C4582F44CF4EDF7D776167A08AC5FEC6E96B93D0B",
-      "size_bytes": 143178231,
+      "sha256": "E3D438DA37DE650539CDD9E19DEDB4CCBD309B5FFCBBC9F897F1FC6597A1A309",
+      "size_bytes": 143493097,
       "min_os": "Windows 10 x64"
     },
     "macos-arm64": {

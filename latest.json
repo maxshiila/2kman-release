@@ -2,18 +2,18 @@
   "schema_version": 1,
   "channel": "stable",
   "status": "draft",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "published_at": null,
-  "release_page": null,
-  "release_notes": null,
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.0.1",
+  "release_notes": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.0.1.md",
   "platforms": {
     "windows-x64": {
       "installer_type": "windows-exe",
       "available": false,
-      "file_name": null,
-      "origin_url": null,
-      "sha256": null,
-      "size_bytes": null,
+      "file_name": "2KMAN-0.0.1-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.0.1/2KMAN-0.0.1-win-x64.exe",
+      "sha256": "F39674F822266B7A088BE1060BDFB40EA07BEDAB7F172870ABEF1CE957CA8CC7",
+      "size_bytes": 143178011,
       "min_os": "Windows 10 x64"
     },
     "macos-arm64": {

@@ -17,7 +17,7 @@
 
 ## 发布流程
 
-1. 在本仓库创建 `vX.Y.Z` tag；本次 Windows 版本候选为 `v0.0.1`。
+1. 在本仓库创建 `vX.Y.Z` tag；当前 Windows 版本为 `v0.0.2`。
 2. CI 从源码仓库构建 Windows/macOS 安装包：Windows 优先 `.exe` 安装程序，macOS 优先 `.dmg` 安装包；若后续选择 `.msi` 或 `.pkg`，必须在清单中明确标注。
 3. 将工件上传到本仓库对应 GitHub Release。
 4. 更新根目录 `latest.json`，把 `status` 改为 `published`，填写版本、Release 页面、安装包类型、文件名、大小和 SHA-256。
@@ -25,8 +25,8 @@
 
 ## 当前状态
 
-当前 `latest.json` 已发布 2KMAN 0.0.1 Windows 工件；macOS 条目仍不可用。只有 status: published 且平台 available=true 的条目才会提供给正式客户端。
+当前 `latest.json` 已发布 2KMAN 0.0.2 Windows 工件；macOS 条目仍不可用。只有 status: published 且平台 available=true 的条目才会提供给正式客户端。
 
-## 0.0.1 版本文档
+## 0.0.2 版本文档
 
-- Windows 0.0.1 Release Notes：RELEASE-NOTES-0.0.1.md
+- Windows 0.0.2 Release Notes：RELEASE-NOTES-0.0.2.md

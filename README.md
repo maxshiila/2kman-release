@@ -4,11 +4,11 @@
 
 ## 下载最新版
 
-当前稳定版本：**0.1.2**
+当前稳定版本：**0.1.3**
 
 | 平台 | 状态 | 下载 |
 | --- | --- | --- |
-| Windows 10/11 x64 | 可用 | [下载 Windows 安装包](https://github.com/maxshiila/2kman-release/releases/download/v0.1.2/2KMAN-0.1.2-win-x64.exe) |
+| Windows 10/11 x64 | 可用 | [下载 Windows 安装包](https://github.com/maxshiila/2kman-release/releases/download/v0.1.3/2KMAN-0.1.3-win-x64.exe) |
 | macOS Apple Silicon | 暂未提供 | — |
 | macOS Intel | 暂未提供 | — |
 
@@ -37,11 +37,11 @@
 
 ## 当前版本
 
-[0.1.2 更新说明](RELEASE-NOTES-0.1.2.md)
+[0.1.3 更新说明](RELEASE-NOTES-0.1.3.md)
 
 Windows 安装包 SHA-256：
 
-`ED48A7DABBB2FA2E61A124EBF40F3D205D49A4738FD6913F4423F9F8050DF745`
+`9558F09DA3B3DBDB66EE28C91C1BC393AC6FA6890811E4ECCF3DE2E8A33927FA`
 
 ## 关于本仓库
 

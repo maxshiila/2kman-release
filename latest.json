@@ -2,18 +2,18 @@
   "schema_version": 1,
   "channel": "stable",
   "status": "published",
-  "version": "0.1.2",
-  "published_at": "2026-07-23T22:18:00Z",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.2",
-  "release_notes": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.2.md",
+  "version": "0.1.3",
+  "published_at": "2026-07-24T00:20:00Z",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.3",
+  "release_notes": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.3.md",
   "platforms": {
     "windows-x64": {
       "installer_type": "windows-exe",
       "available": true,
-      "file_name": "2KMAN-0.1.2-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.2/2KMAN-0.1.2-win-x64.exe",
-      "sha256": "ED48A7DABBB2FA2E61A124EBF40F3D205D49A4738FD6913F4423F9F8050DF745",
-      "size_bytes": 143469501,
+      "file_name": "2KMAN-0.1.3-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.3/2KMAN-0.1.3-win-x64.exe",
+      "sha256": "9558F09DA3B3DBDB66EE28C91C1BC393AC6FA6890811E4ECCF3DE2E8A33927FA",
+      "size_bytes": 143468896,
       "min_os": "Windows 10 x64"
     },
     "macos-arm64": {

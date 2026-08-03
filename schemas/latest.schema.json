@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://updates.2kman.com/schemas/latest.schema.json",
-  "title": "2KMAN Production latest manifest",
+  "title": "MAN Production latest manifest",
   "type": "object",
   "additionalProperties": false,
   "required": [

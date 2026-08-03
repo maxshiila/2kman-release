@@ -12,8 +12,8 @@
       "available": true,
       "file_name": "MAN-0.1.7-win-x64.exe",
       "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.7-win-x64.exe",
-      "sha256": "900ff7b154e6369e14ed3a1141d064375ceb8883f48a4196617cdf70b16beb0a",
-      "size_bytes": 203772995,
+      "sha256": "d8c71b997e0ea21a6453f99b89619f234c06ae228997c0181f67e11f009a7aa2",
+      "size_bytes": 203774196,
       "min_os": "Windows 10 x64"
     },
     "macos-arm64": {

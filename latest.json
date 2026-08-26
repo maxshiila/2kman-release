@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "0.1.6",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.6",
+  "version": "0.1.7",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.7",
   "release_notes": {
-    "user_message": "新版会清楚展示本次更新带来的改进；更新可在后台安全下载，不会打断正在进行的任务。下载完成后可按你的时间重启安装。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.6.md"
+    "user_message": "修复配对账号在新增和编辑时的 PSN ID 显示问题；从 0.1.6 更新时会优先下载更小的增量包。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.7.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,17 +16,24 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-0.1.6-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.6/MAN-0.1.6-win-x64.exe",
-      "sha256": "8b396a25b6cb4a185f2814a46f3ac797eaff18252ec4bec840ba10aa734f177d",
-      "size_bytes": 153178589,
+      "file_name": "MAN-0.1.7-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.7-win-x64.exe",
+      "sha256": "4f08af352c890c8696730ac6ae9a785deb7bc6a103d5cb9f00cd2831a7951785",
+      "size_bytes": 153175136,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.6/MAN-0.1.6.payload.zip",
-        "sha256": "33a9dc497422f8fa1318d975d24565edb561dafe76f35f0faafa2f0312c75f53",
-        "size_bytes": 207044962
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.7.payload.zip",
+        "sha256": "cb97bd4e9548c747dc120544b218cf1e3c0b03c867644fc8bddcf0161cff3a1f",
+        "size_bytes": 207045514
       },
-      "deltas": []
+      "deltas": [
+        {
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.6-to-0.1.7.delta.zip",
+          "sha256": "4c675c6b086f6eec78401a68649beba505fbda2e94fe14d5263c5761fb1bf5bc",
+          "size_bytes": 17446766,
+          "from_version": "0.1.6"
+        }
+      ]
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
@@ -48,6 +55,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "mlcuGYTtace3TvBYdR2SQda1bziZpXOdLgnyWNkz2lgNd1Z5Wc3eHjs3/KmXyeDsF8WoJA8ZnIXzugh/fpIhBQ=="
+    "value": "8eFpUATeIxpuAcgC7ojo93QhHm/2gwAjrGuWeyPCZVcjIQ0ZJShOGozDBFoHOG5eQxAr8MqRiGqQezDjMFq+Cg=="
   }
 }

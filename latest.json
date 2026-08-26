@@ -1,25 +1,36 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "0.0.4",
-  "published_at": "2026-08-26T11:30:35Z",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.0.4",
-  "release_notes": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.0.4.md",
+  "version": "0.1.6",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.6",
+  "release_notes": {
+    "user_message": "新版会清楚展示本次更新带来的改进；更新可在后台安全下载，不会打断正在进行的任务。下载完成后可按你的时间重启安装。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.6.md"
+  },
+  "mandatory": false,
+  "mandatory_reason": "",
+  "min_supported_version": "",
   "platforms": {
     "windows-x64": {
       "installer_type": "windows-exe",
+      "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-0.0.4-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.0.4/MAN-0.0.4-win-x64.exe",
-      "sha256": "86F67D8C742A49631DF91C29FC57CBBE2CA3FFD4C245B505D9838F9FA555A4C7",
-      "size_bytes": 143669583,
-      "min_os": "Windows 10 x64"
+      "file_name": "MAN-0.1.6-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.6/MAN-0.1.6-win-x64.exe",
+      "sha256": "8b396a25b6cb4a185f2814a46f3ac797eaff18252ec4bec840ba10aa734f177d",
+      "size_bytes": 153178589,
+      "min_os": "Windows 10 x64",
+      "payload": {
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.6/MAN-0.1.6.payload.zip",
+        "sha256": "33a9dc497422f8fa1318d975d24565edb561dafe76f35f0faafa2f0312c75f53",
+        "size_bytes": 207044962
+      },
+      "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": false,
-      "file_name": null,
       "origin_url": null,
       "sha256": null,
       "size_bytes": null,
@@ -28,11 +39,15 @@
     "macos-x64": {
       "installer_type": "macos-dmg",
       "available": false,
-      "file_name": null,
       "origin_url": null,
       "sha256": null,
       "size_bytes": null,
       "min_os": "macOS 13"
     }
+  },
+  "signature": {
+    "algorithm": "Ed25519",
+    "key_id": "man-release-ed25519-v1",
+    "value": "mlcuGYTtace3TvBYdR2SQda1bziZpXOdLgnyWNkz2lgNd1Z5Wc3eHjs3/KmXyeDsF8WoJA8ZnIXzugh/fpIhBQ=="
   }
 }

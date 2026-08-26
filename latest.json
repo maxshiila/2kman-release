@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "0.1.7",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.7",
+  "version": "0.1.8",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.8",
   "release_notes": {
-    "user_message": "修复配对账号在新增和编辑时的 PSN ID 显示问题；从 0.1.6 更新时会优先下载更小的增量包。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.7.md"
+    "user_message": "启动授权失败会自动立即重试，网络不稳不会再误报授权失效；开始任务不再要求先接受法律声明；剩余天数统一显示\"天\"单位。从 0.1.6 或 0.1.7 更新会优先下载更小的增量包。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.8.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,21 +16,27 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-0.1.7-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.7-win-x64.exe",
-      "sha256": "4f08af352c890c8696730ac6ae9a785deb7bc6a103d5cb9f00cd2831a7951785",
-      "size_bytes": 153175136,
+      "file_name": "MAN-0.1.8-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.8/MAN-0.1.8-win-x64.exe",
+      "sha256": "c529653c5a6b11320bb8b0159d52bd8861b3ee34ad5f1c62577a568529fc53f6",
+      "size_bytes": 153171995,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.7.payload.zip",
-        "sha256": "cb97bd4e9548c747dc120544b218cf1e3c0b03c867644fc8bddcf0161cff3a1f",
-        "size_bytes": 207045514
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.8/MAN-0.1.8.payload.zip",
+        "sha256": "750c6e6be3a73980cf836fa3ee12d72a2a1d7593c21e9624971634a2eb29e0d1",
+        "size_bytes": 207046456
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-0.1.6-to-0.1.7.delta.zip",
-          "sha256": "4c675c6b086f6eec78401a68649beba505fbda2e94fe14d5263c5761fb1bf5bc",
-          "size_bytes": 17446766,
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.8/MAN-0.1.7-to-0.1.8.delta.zip",
+          "sha256": "85e8ddee3c6e56d47ded00be9532250edb085cb3519e7f9657ef7203d6651d65",
+          "size_bytes": 17447708,
+          "from_version": "0.1.7"
+        },
+        {
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.8/MAN-0.1.6-to-0.1.8.delta.zip",
+          "sha256": "9b057bf8b7edf724d132a446f2477985b56139f5fa84f80e6d0ef115dbef3907",
+          "size_bytes": 17447708,
           "from_version": "0.1.6"
         }
       ]
@@ -55,6 +61,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "8eFpUATeIxpuAcgC7ojo93QhHm/2gwAjrGuWeyPCZVcjIQ0ZJShOGozDBFoHOG5eQxAr8MqRiGqQezDjMFq+Cg=="
+    "value": "upMUCX8J4pxRLrTMG4Hp/rjrWosX18X4YHBfDBQplKtzOZCOIp6EKPmvPXy11s7HYV1NUjCSqLWR10yMEE8hCg=="
   }
 }

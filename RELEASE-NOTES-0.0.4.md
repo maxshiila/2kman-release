@@ -1,1 +1,0 @@
-# MAN 0.0.4 更新说明`n`n本版本保持 0.0.3 的功能和安装包边界，仅递增客户端版本，用于验证自动下载和自动更新。`n`n- Windows 10/11（64 位）：[下载 MAN 0.0.4](https://github.com/maxshiila/2kman-release/releases/download/v0.0.4/MAN-0.0.4-win-x64.exe)`n- 文件名：MAN-0.0.4-win-x64.exe`n- SHA-256：86F67D8C742A49631DF91C29FC57CBBE2CA3FFD4C245B505D9838F9FA555A4C7

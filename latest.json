@@ -2,18 +2,18 @@
   "schema_version": 1,
   "channel": "stable",
   "status": "published",
-  "version": "0.0.3",
-  "published_at": "2026-08-24T11:50:03Z",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.0.3",
-  "release_notes": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.0.3.md",
+  "version": "0.0.4",
+  "published_at": "2026-08-26T11:30:35Z",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.0.4",
+  "release_notes": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.0.4.md",
   "platforms": {
     "windows-x64": {
       "installer_type": "windows-exe",
       "available": true,
-      "file_name": "MAN-0.0.3-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.0.3/MAN-0.0.3-win-x64.exe",
-      "sha256": "D9A3AE1ACA36D1B08272928888EE36BA3605135D1E1009735311EE791D0BE527",
-      "size_bytes": 143631425,
+      "file_name": "MAN-0.0.4-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.0.4/MAN-0.0.4-win-x64.exe",
+      "sha256": "86F67D8C742A49631DF91C29FC57CBBE2CA3FFD4C245B505D9838F9FA555A4C7",
+      "size_bytes": 143669583,
       "min_os": "Windows 10 x64"
     },
     "macos-arm64": {

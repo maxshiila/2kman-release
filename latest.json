@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.3",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.3",
+  "version": "1.0.4",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.4",
   "release_notes": {
-    "user_message": "篮球27开放场假传后默认等待调整为 1.4 秒，并包含当前已验证的识别、赛后流程与运行稳定性改进。1.0.1 用户优先使用增量更新。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.3.md"
+    "user_message": "本次为 bug 修复版本：修复部分对局防守抢篮板阶段偶发的「画面分析失败，已安全停止」中断；首次设置不再显示法律声明页，直接进入激活；内置配置包同步更新。1.0.3 用户优先使用增量更新。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.4.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,32 +16,31 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.3-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.3/MAN-1.0.3-win-x64.exe",
-      "sha256": "23560a58ef936132078a8d72d72703efd31dc84d3b2c54456b8caac5fc86978a",
-      "size_bytes": 145227763,
+      "file_name": "MAN-1.0.4-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.4/MAN-1.0.4-win-x64.exe",
+      "sha256": "df4e097dc9ffe167acf4b4035bd57419a30f5b929d611407a6274434afba59f9",
+      "size_bytes": 145351692,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.3/MAN-1.0.3.payload.zip",
-        "sha256": "754c5f2a49e9920076dfc251a9739e97e32e89433e97ff010f5ba92a062e3566",
-        "size_bytes": 197075434
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.4/MAN-1.0.4.payload.zip",
+        "sha256": "1d64a56bf823bba58b6183a5e77402421ef527c59026fa9f5f889222ee079e11",
+        "size_bytes": 197387457
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.3/MAN-1.0.1-to-1.0.3.delta.zip",
-          "sha256": "c75e3a6d1c12fea4e22471fc960059686a4f0b4da9af7c89f67acd0eb7a6ebc3",
-          "size_bytes": 20752054,
-          "from_version": "1.0.1"
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.4/MAN-1.0.3-to-1.0.4.delta.zip",
+          "sha256": "06313d2ea73e736d13c1dd30ee683b6efb89c399656a1c8b5de2600d017c0a0e",
+          "size_bytes": 21083466,
+          "from_version": "1.0.3"
         }
       ]
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
-      "available": true,
-      "file_name": "MAN-Production-User-Mac-arm64-1.0.3.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.3/MAN-Production-User-Mac-arm64-1.0.3.dmg",
-      "sha256": "2b2acae2aab30326306c2404626f99ab1ebdde8dfbded9ee6fa36749d3714718",
-      "size_bytes": 171655491,
+      "available": false,
+      "origin_url": null,
+      "sha256": null,
+      "size_bytes": null,
       "min_os": "macOS 13"
     },
     "macos-x64": {
@@ -56,6 +55,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "32ZUqdGHydPgl6C+hcS/4cWSReOfSdCvo3EVzEC/8oFJYibYxsxRrzUz3UCd8YtX4bUbgNiSimwV0GIh792nCw=="
+    "value": "fD9NL39OGVfXSG+5h1aM4aGHH3Q9CtEYv70PxEyxkM1kPxid6/7ts4JJTiPnK1i0842E6llZDaIU72aVrtHdDQ=="
   }
 }

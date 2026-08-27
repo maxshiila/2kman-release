@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "0.1.9",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v0.1.9",
+  "version": "1.0.0",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.0",
   "release_notes": {
-    "user_message": "付费租约在服务端短暂中断时最长可继续使用 24 小时，冷启动续租失败不再要求重新刷卡激活；免费会话会在后台静默续温付费租约，切回付费配置不再重复提示。安装包与完整更新包体积减小，下载更快。从 0.1.7 或 0.1.8 更新优先使用增量包；0.1.7 之前的旧版本需先完成此次更新才能继续开始任务。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-0.1.9.md"
+    "user_message": "篮球27开放场更新：投篮反馈升级为时机格边框搜索识别，横幅位置漂移也能稳定判定完美或非完美；公开赛识别换用记分板2K27标志素材并重校准。随包配置更新到 0.0.14（PS5/XBOX 一致）。从 0.1.9 更新优先使用约20MB增量包，失败自动改走完整安装器。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.0.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,28 +16,22 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-0.1.9-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.9/MAN-0.1.9-win-x64.exe",
-      "sha256": "41adba25fb1b60905fdc1c8ae42f06c3c5c4c1a1c748c7f0384ed57505ef2f9e",
-      "size_bytes": 145117218,
+      "file_name": "MAN-1.0.0-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.0/MAN-1.0.0-win-x64.exe",
+      "sha256": "d98f1bc05aac95575e98b20453304ec2609c78cbc2208c34c83d78ade62d26aa",
+      "size_bytes": 145216468,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.9/MAN-0.1.9.payload.zip",
-        "sha256": "e864367424f4153c40cd7e4668b174c2e0f0e82192ca103cd26c0b42f2932a1b",
-        "size_bytes": 196965114
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.0/MAN-1.0.0.payload.zip",
+        "sha256": "7f20fe5fa7f0c70c2e6b1bb125b39ecc16941fda56b3076d05ae86eefc1bfa5c",
+        "size_bytes": 197061609
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.9/MAN-0.1.7-to-0.1.9.delta.zip",
-          "sha256": "ca3a9843754ab3863447cf0aeaa642ce7ac9ed3ebd4827f5e4fa245a73709672",
-          "size_bytes": 20639541,
-          "from_version": "0.1.7"
-        },
-        {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v0.1.9/MAN-0.1.8-to-0.1.9.delta.zip",
-          "sha256": "f3a32d7c8d464da4ec894126c76ab2620755d91918926efda4e7708d7a30aa46",
-          "size_bytes": 20613199,
-          "from_version": "0.1.8"
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.0/MAN-0.1.9-to-1.0.0.delta.zip",
+          "sha256": "bdcbe4a2f182cd02224946292a883cfadd746aae9cb8e23a6e91270ce5481327",
+          "size_bytes": 20794013,
+          "from_version": "0.1.9"
         }
       ]
     },
@@ -61,6 +55,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "RJGhpq8NQC3/Ng+yoZMZR82kHTwaOcdI7TzraiNmBoyj8Xzy2mgP4LZuYuPSe9DnGO6sUrqJfBz7mXuVfcQ9Cg=="
+    "value": "GH67KBv3RrutLPUtHrA8LNNVcG/zICBnItP4a4v5rnZXmWTqzerQ8RoTlxWrVZ6vG8WNPUbxhPxPLL88WccECQ=="
   }
 }

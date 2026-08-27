@@ -4,11 +4,11 @@ MAN 是面向用户的客户端。此仓库提供正式安装包、版本信息�
 
 ## 下载最新版
 
-当前稳定版本：**MAN 0.1.9**
+当前稳定版本：**MAN 1.0.1**
 
 | 平台 | 状态 | 下载 |
 | --- | --- | --- |
-| Windows 10/11 x64 | 可用 | [下载安装程序](https://github.com/maxshiila/2kman-release/releases/download/v0.1.9/MAN-0.1.9-win-x64.exe) |
+| Windows 10/11 x64 | 可用 | [下载安装程序](https://github.com/maxshiila/2kman-release/releases/download/v1.0.1/MAN-1.0.1-win-x64.exe) |
 | macOS Apple Silicon（macOS 13+） | 0.1.7 为最后发布版本（存档） | [下载 macOS DMG](https://github.com/maxshiila/2kman-release/releases/download/v0.1.7/MAN-Production-User-Mac-arm64-0.1.7.dmg) |
 | macOS Intel | 尚未提供 | — |
 
@@ -28,11 +28,11 @@ MAN 是面向用户的客户端。此仓库提供正式安装包、版本信息�
 
 ## 当前版本
 
-[0.1.9 更新说明](RELEASE-NOTES-0.1.9.md)
+[1.0.1 更新说明](RELEASE-NOTES-1.0.1.md)
 
 Windows 安装包 SHA-256：
 
-`41ADBA25FB1B60905FDC1C8AE42F06C3C5C4C1A1C748C7F0384ED57505EF2F9E`
+`36209BCC508D3E2784FEB5875E5E14AF534C26B3B9E6A63DD6347A573C0DB25B`
 
 ## 仓库内容
 

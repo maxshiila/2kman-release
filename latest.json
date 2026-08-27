@@ -37,10 +37,11 @@
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
-      "available": false,
-      "origin_url": null,
-      "sha256": null,
-      "size_bytes": null,
+      "available": true,
+      "file_name": "MAN-Production-User-Mac-arm64-1.0.3.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.3/MAN-Production-User-Mac-arm64-1.0.3.dmg",
+      "sha256": "a5104cb796a3205b417c235fe2c9d8caa57263b2056356f2fbb2f3b80b75264a",
+      "size_bytes": 177764120,
       "min_os": "macOS 13"
     },
     "macos-x64": {
@@ -55,6 +56,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "fD9NL39OGVfXSG+5h1aM4aGHH3Q9CtEYv70PxEyxkM1kPxid6/7ts4JJTiPnK1i0842E6llZDaIU72aVrtHdDQ=="
+    "value": "l+gfbhoUkbWO4wmQ6csVwczUWGu4Qaw0zDmUQqs51GfVGLqLG/jMpc7yf2Z+LTv5ZNV45rSQRnR+DL7MwrZzCA=="
   }
 }

@@ -2,38 +2,31 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.7",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.7",
+  "version": "1.0.6",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.6",
   "release_notes": {
-    "user_message": "修复金币与 VC 识别在部分安装上不生效的问题；大幅提升国内更新下载速度（增量包约 23MB，支持断点续传），失败自动切换加速线路。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.7.md"
+    "user_message": "【新功能】篮球27「街球之王」场地正式上线（1.0.5 曾误随包出现，本次为正式推出）；键盘接管时会暂停识别，松开后自动恢复。\r\n【修复】优化场地定位、跑位与投篮校准；提升菜单、赛果与重连识别；修复街球配置影响开放球场的问题；更新 VC 与时薪统计；改善 Xbox 中继与失败反馈。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.6.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
-  "min_supported_version": "",
+  "min_supported_version": "0.1.7",
   "platforms": {
     "windows-x64": {
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.7-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.7/MAN-1.0.7-win-x64.exe",
-      "sha256": "c03e5e7320da23f82a23515f0f07c4a8e0f90c1afd5d42004ec94f76ab097352",
-      "size_bytes": 146683634,
+      "file_name": "MAN-1.0.6-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.6/MAN-1.0.6-win-x64.exe",
+      "sha256": "e49c7120557ba1e9178fa064665879f59fc6a4116c98b2b98dce4f93beaeac69",
+      "size_bytes": 145519782,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.7/MAN-1.0.7.payload.zip",
-        "sha256": "571323ca15fbd1cd0cba8b6224b0a591b587ec8f23bdb2e7044cc975a4c1211f",
-        "size_bytes": 149115733
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.6/MAN-1.0.6.payload.zip",
+        "sha256": "f94f6c7a59bf76c9c292b5e78156c248e554275797efe2f091961548ec1b65b7",
+        "size_bytes": 147599535
       },
-      "deltas": [
-        {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.7/MAN-1.0.6-to-1.0.7.delta.zip",
-          "sha256": "5f05edde0c10451bcae22942922faf74b6f6a5d432372971f5106a0f5b9b9c42",
-          "size_bytes": 22917382,
-          "from_version": "1.0.6"
-        }
-      ]
+      "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
@@ -55,6 +48,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "Kj2nR+WFYZksJRKNnYzHl0s2BW+bD7b9e1RZtEcHifLvIFOdMq9h05LldIadLf8Wg3frll1Ndn4GxkOyi3JYCA=="
+    "value": "+94/EtTWQfZIYvcnYoDG8bqKOjYPBPg2AtRQoTpqFrnBfhAIaeIDVuIC2tdgJnqVxvSTUEi2v9HXuJWfrxlyDA=="
   }
 }

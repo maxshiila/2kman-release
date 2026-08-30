@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.8",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.8",
+  "version": "1.0.9",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.9",
   "release_notes": {
-    "user_message": "新增篮球27街球之王「山谷公园」场地与开放球场「左底角beta」投篮档位；传球收尾可选三角/闪传/空接且运行中可实时切换；渠道邀请码 2KC 上线；Windows 安装器支持老用户一键升级；防火墙拦截自愈与 Xbox 连接诊断；首单卡提示更明确；多项传球循环与界面细节修复。本次增量包约 21MB。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.8.md"
+    "user_message": "修复 Xbox 打完开放球场后识别不到「比赛结束」、流程卡住的问题；Xbox 识别校准与 PS5 拉齐。开放球场识别模板批次校准（开始比赛、赛后金币、教学引导等）；左底角边线记忆防卡死；PS5 串流隐藏延迟优化。⚠️ 回退旧版可能导致街球之王不稳定，后续会优化，建议保持最新。含完整安装包与 1.0.8 增量包（约 34MB），覆盖安装即升级。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.9.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,22 +16,22 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.8-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.8/MAN-1.0.8-win-x64.exe",
-      "sha256": "2d049bcc14fd4aa55fd1aa3669d86c09061b6bb534ce1bbeb66b8c0a9697ec74",
-      "size_bytes": 146501778,
+      "file_name": "MAN-1.0.9-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.9-win-x64.exe",
+      "sha256": "592127f2141ecc656b77654a340e62e127403fad9ee14fe740e83c76328357ed",
+      "size_bytes": 146016872,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.8/MAN-1.0.8.payload.zip",
-        "sha256": "6260fe4ad4858a262aab6afc90248066a97558940c84b35352060f7d7374bbd8",
-        "size_bytes": 146558655
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.9.payload.zip",
+        "sha256": "ef74aae361ec66da40c8de56cbf767036158957f8553fcddc45862bb8ad5e13c",
+        "size_bytes": 197753430
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.8/MAN-1.0.7-to-1.0.8.delta.zip",
-          "sha256": "1eb1b10e6f4d30ad3430bff54b1c5f5cc13ac3b96f10a9199b2d1a542410dc9c",
-          "size_bytes": 21552813,
-          "from_version": "1.0.7"
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.8-to-1.0.9.delta.zip",
+          "sha256": "fb966ed68aa34f31d024299b2ca5bdd9ab7bbdd2d7df18643571e92e139deefb",
+          "size_bytes": 35458116,
+          "from_version": "1.0.8"
         }
       ]
     },
@@ -55,6 +55,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "1Ig2iaQbbOKDeQZirpV7fcMmOqKdv6jIu8K1c2JKhE3svfsEtWBGMgDNJYlOH4M4hbBJkLqGu1QXk0jNoEO8CA=="
+    "value": "9VQsW5RMltozFSEDSmxbYHsxuF1r+kQgUHaC/A6nSs/ZqEcKKFfzOV50UteDFYLwmtmQPlWUVpPq6hYRABslAg=="
   }
 }

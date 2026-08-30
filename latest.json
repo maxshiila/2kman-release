@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.10",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.10",
+  "version": "1.0.9",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.9",
   "release_notes": {
-    "user_message": "修复 Xbox 串流会话被回收后游戏内设置（投篮条、球员指示器）被重置的问题：会话每 2 分钟自动续期，长时间运行不再掉线重连；修复网络丢包花屏时可能卡死的问题；更新失败指引改指官网安装页。覆盖安装即升级，1.0.9 用户将收到约 21MB 增量包。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.10.md"
+    "user_message": "修复 Xbox 打完开放球场后识别不到「比赛结束」、流程卡住的问题；Xbox 识别校准与 PS5 拉齐。开放球场识别模板批次校准（开始比赛、赛后金币、教学引导等）；左底角边线记忆防卡死；PS5 串流隐藏延迟优化。⚠️ 回退旧版可能导致街球之王不稳定，后续会优化，建议保持最新。含完整安装包与 1.0.8 增量包（约 34MB），覆盖安装即升级。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.9.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,34 +16,32 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.10-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.10/MAN-1.0.10-win-x64.exe",
-      "sha256": "8f37d2ea4f14c92cee9d7ba3e2dd4bde00630ee17ae0bef7e918e1644114e1d6",
-      "size_bytes": 146047490,
+      "file_name": "MAN-1.0.9-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.9-win-x64.exe",
+      "sha256": "592127f2141ecc656b77654a340e62e127403fad9ee14fe740e83c76328357ed",
+      "size_bytes": 146016872,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.10/MAN-1.0.10.payload.zip",
-        "sha256": "22f161db0cc512d631c744469373b86eb9c7a55bf3d6952122d922f839c78d41",
-        "size_bytes": 197843635
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.9.payload.zip",
+        "sha256": "ef74aae361ec66da40c8de56cbf767036158957f8553fcddc45862bb8ad5e13c",
+        "size_bytes": 197753430
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.10/MAN-1.0.9-to-1.0.10.delta.zip",
-          "sha256": "60f3efc0cc98bee31ebe498c5227abe4a8472d0d28d074d3868de5db32806cf6",
-          "size_bytes": 21466278,
-          "from_version": "1.0.9"
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.8-to-1.0.9.delta.zip",
+          "sha256": "fb966ed68aa34f31d024299b2ca5bdd9ab7bbdd2d7df18643571e92e139deefb",
+          "size_bytes": 35458116,
+          "from_version": "1.0.8"
         }
       ]
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
-      "available": true,
-      "file_name": "MAN-1.0.9-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.9/MAN-1.0.9-mac-arm64.dmg",
-      "sha256": "6904e70ce46251d5ad0f9c2a05d6e58eb0ce1753a47730ec79474c6394911c3b",
-      "size_bytes": 178217038,
-      "min_os": "macOS 13",
-      "deltas": []
+      "available": false,
+      "origin_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "min_os": "macOS 13"
     },
     "macos-x64": {
       "installer_type": "macos-dmg",
@@ -57,6 +55,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "zIa3HdaJb7NnIEE3fkE5cmyBNefATFPKN6p4Bw4/Lpz2iwK4oR9dKPuu4PWoX20iZ7WxPE5B5pUM7kX3NvXBBg=="
+    "value": "9VQsW5RMltozFSEDSmxbYHsxuF1r+kQgUHaC/A6nSs/ZqEcKKFfzOV50UteDFYLwmtmQPlWUVpPq6hYRABslAg=="
   }
 }

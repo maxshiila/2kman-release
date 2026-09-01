@@ -5,7 +5,7 @@
   "version": "1.0.12",
   "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.12",
   "release_notes": {
-    "user_message": "左底角（beta）升级：实况画面可直接显示投篮准入区域（开启诊断-实况辅助线后可见，触发变绿）；出手点更一致；跑位自动远离边线、进区前降速细调，减少冲线；并修复绿色投篮反馈期间左边缘识别偶发丢失。",
+    "user_message": "左底角（beta）升级：出手点更一致；跑位自动远离边线、进区前降速细调，减少冲线；并修复绿色投篮反馈期间左边缘识别偶发丢失。",
     "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.12.md"
   },
   "mandatory": false,
@@ -57,6 +57,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "iwk9SY/1oo57AFxQEXqDsLQVLcjbAL4mwDDX765EVky1oOISq0qcFN+WJkBcECZDMyPQsPNX5yUmkWl96KGtAQ=="
+    "value": "f5FSJ8f0ogs6TPmWhuBsCc+Qhlj0ymMuS4mN2LwTQ4EKN2FgZ3Hn6vW3hgO5Xr7U81QHRRzteAW8Epom3+uHCA=="
   }
 }

@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.12",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.12",
+  "version": "1.0.13",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.13",
   "release_notes": {
-    "user_message": "左底角（beta）升级：出手点更一致；跑位自动远离边线、进区前降速细调，减少冲线；并修复绿色投篮反馈期间左边缘识别偶发丢失。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.12.md"
+    "user_message": "Xbox 多开修复：关闭窗口即彻底退出并释放主机串流位，解决多开换号后连不上、约3秒一次失败的问题；另含投篮时机校准多项修复与随包配置更新。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.13.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,22 +16,22 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.12-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.12/MAN-1.0.12-win-x64.exe",
-      "sha256": "abadeeb2bdd2bfdf6df98003de98e50287ab5b36b19c8a1e5880f82360d27222",
-      "size_bytes": 146312305,
+      "file_name": "MAN-1.0.13-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.13/MAN-1.0.13-win-x64.exe",
+      "sha256": "6184f8b3a1e975538d46f01ffa2ee3bde6ab0ee629b5225851fc0dc764c1e4c9",
+      "size_bytes": 147404129,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.12/MAN-1.0.12.payload.zip",
-        "sha256": "213eea4f74d08c20a0dfc91c0f88be3c81cc26950f011f5d3d7dad01c3c9ee94",
-        "size_bytes": 147261769
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.13/MAN-1.0.13.payload.zip",
+        "sha256": "e0367b9c654f3bbac9c782708bbc03b12c10eb37c120e0d91307b862374ac4ec",
+        "size_bytes": 148158971
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.12/MAN-1.0.11-to-1.0.12.delta.zip",
-          "sha256": "57850653e20ca5c2fc0da25effeb66e28239e55842c9e647f1262aea194d0a4a",
-          "size_bytes": 21669467,
-          "from_version": "1.0.11"
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.13/MAN-1.0.12-to-1.0.13.delta.zip",
+          "sha256": "e36b42769a97cd8137c849353937b789b107428bbfe6343e57e555e2da1a9a3c",
+          "size_bytes": 60954405,
+          "from_version": "1.0.12"
         }
       ]
     },
@@ -57,6 +57,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "f5FSJ8f0ogs6TPmWhuBsCc+Qhlj0ymMuS4mN2LwTQ4EKN2FgZ3Hn6vW3hgO5Xr7U81QHRRzteAW8Epom3+uHCA=="
+    "value": "8XeGqNCDPpKBt7GDztSsYB45DcISnGdidOkzxFN2U7dc88+LFXoMpugboJzNrlBpgU4mtwbQyJgDUMkydrkBDw=="
   }
 }

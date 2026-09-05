@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.14",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.14",
+  "version": "1.0.15",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.15",
   "release_notes": {
-    "user_message": "C:/Users/98563/AppData/Local/Temp/release-notes-user-1.0.14.md",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.14.md"
+    "user_message": "MAN 1.0.15：修复 PS5 串流画面停帧/解码异常（回退 H.264 与 FFmpeg 7、看门狗双时钟、软恢复转发）；篮球27开放场近投档定稿、攻防切换冲刺、光标跳变 3 秒重锁。",
+    "url": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.15"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -15,7 +15,7 @@
     "windows-x64": {
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
-      "available": true,
+      "available": false,
       "file_name": "MAN-1.0.14-win-x64.exe",
       "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.14/MAN-1.0.14-win-x64.exe",
       "sha256": "55324a1717fe6c676f43f1c8eb01834cdd27c9d49e1a4db91dba313901c5d717",
@@ -37,12 +37,12 @@
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
-      "available": false,
-      "file_name": null,
-      "origin_url": null,
-      "sha256": null,
-      "size_bytes": null,
-      "min_os": "macOS 13",
+      "available": true,
+      "file_name": "MAN-1.0.15-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.15-mac-arm64.dmg",
+      "sha256": "98b7f1d57615776f5e7b77d59cc0db37d631329d1e0484c0d9a9f35573af3bd7",
+      "size_bytes": 174610108,
+      "min_os": "macOS 14",
       "deltas": []
     },
     "macos-x64": {
@@ -57,6 +57,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "uaywPyMOVSYm7gOmGGonhkOy5iOVkqFXqY0+PwsSKkevPU9ZLfx4U9La2b4pDxjSWxmisjQyZs36dwJEcpY7AQ=="
+    "value": "3NPp7vFK1BzC38ngTclbJVi+WBUf/qDkf9PyPOHszsG+HqUvYkBD8XLKiNUqWVVpoCixslfevWEcyo5tcIlaBA=="
   }
 }

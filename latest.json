@@ -5,8 +5,8 @@
   "version": "1.0.15",
   "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.15",
   "release_notes": {
-    "user_message": "MAN 1.0.15：修复 PS5 串流画面停帧/解码异常（回退 H.264 与 FFmpeg 7、看门狗双时钟、软恢复转发）；篮球27开放场近投档定稿、攻防切换冲刺、光标跳变 3 秒重锁。",
-    "url": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.15"
+    "user_message": "MAN 1.0.15：修复 PS5 串流几分钟停帧、报「解码器爆炸」反复断连（回退稳定视频方案）；重连更聪明。投篮训练 ShotLab 真实节奏恢复生效、体力耗尽更快出手、提前量上限 160ms。篮球27开放场近投走位与远投统一、防小位置误出手、横移不再振荡。新增攻防切换自动冲刺；快速切机位识别恢复更快。Windows 随包配置与 1.0.14 一致；macOS 已先行发布同版本。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.15.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -15,23 +15,23 @@
     "windows-x64": {
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
-      "available": false,
-      "file_name": "MAN-1.0.14-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.14/MAN-1.0.14-win-x64.exe",
-      "sha256": "55324a1717fe6c676f43f1c8eb01834cdd27c9d49e1a4db91dba313901c5d717",
-      "size_bytes": 147194537,
+      "available": true,
+      "file_name": "MAN-1.0.15-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.15-win-x64.exe",
+      "sha256": "974fb5bcc5326523fad0a01c527284d444845ce989f92601f0369d389962057a",
+      "size_bytes": 146864446,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.14/MAN-1.0.14.payload.zip",
-        "sha256": "f3e50aca68506a62ec302c078940026e2be4a394ed696069cd19ab6116f104cd",
-        "size_bytes": 148048457
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.15.payload.zip",
+        "sha256": "833efec719097dcd8093ae88d92db93421fa03e352aaf4e2f98dda7e0d2d6529",
+        "size_bytes": 147650857
       },
       "deltas": [
         {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.14/MAN-1.0.13-to-1.0.14.delta.zip",
-          "sha256": "f1a02c165307016bb747137efe1232ff4ddd7e307794acc41505d2f2eb30b2e6",
-          "size_bytes": 28657886,
-          "from_version": "1.0.13"
+          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.14-to-1.0.15.delta.zip",
+          "sha256": "eaaa4de5f39cb41004f194b64e799c4cf4e0d6151ccb587dc93de7d61cfcc724",
+          "size_bytes": 53423398,
+          "from_version": "1.0.14"
         }
       ]
     },
@@ -57,6 +57,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "3NPp7vFK1BzC38ngTclbJVi+WBUf/qDkf9PyPOHszsG+HqUvYkBD8XLKiNUqWVVpoCixslfevWEcyo5tcIlaBA=="
+    "value": "eL0z+tUJPtpH+ILJSeMVbO9w0S2uYjINMgj4Bc1OSrBb1kGIXyobOJ77TZGViFcYKmg564mCQxANrt0M/yo0Dw=="
   }
 }

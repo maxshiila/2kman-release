@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.15",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.15",
+  "version": "1.0.16",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.16",
   "release_notes": {
-    "user_message": "MAN 1.0.15：修复 PS5 串流几分钟停帧、报「解码器爆炸」反复断连（回退稳定视频方案）；重连更聪明。投篮训练 ShotLab 真实节奏恢复生效、体力耗尽更快出手、提前量上限 160ms。篮球27开放场近投走位与远投统一、防小位置误出手、横移不再振荡。新增攻防切换自动冲刺；快速切机位识别恢复更快。Windows 随包配置与 1.0.14 一致；macOS 已先行发布同版本。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.15.md"
+    "user_message": "27开放场:全新助攻模式(运行中可切,到位自动高吊传球)、新增弧线投篮档与实时调参、要球更快范围更大且移动不中断、传球组合不再被打断。街球之王:传球站位重做不再来回拉锯,开场立刻要球,空接提速(3.1→1.6秒)且自动对局可调每段时长。PS5按键延迟大幅优化,花屏与「找不到PS5」修复。防守篮板触发重做更果断,我方出手残留不再误抢板。Xbox多账号并存,多开数据隔离。更新失败不再静默回滚(需覆盖安装生效)。随包配置自动更新,无需重新校准。macOS本版无更新。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.16.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,32 +16,25 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.15-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.15-win-x64.exe",
-      "sha256": "974fb5bcc5326523fad0a01c527284d444845ce989f92601f0369d389962057a",
-      "size_bytes": 146864446,
+      "file_name": "MAN-1.0.16-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.16/MAN-1.0.16-win-x64.exe",
+      "sha256": "722e1c9fdc2020b1ff794242d0e1290952e14bf69707ad5af43350a129de2297",
+      "size_bytes": 135404691,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.15.payload.zip",
-        "sha256": "833efec719097dcd8093ae88d92db93421fa03e352aaf4e2f98dda7e0d2d6529",
-        "size_bytes": 147650857
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.16/MAN-1.0.16.payload.zip",
+        "sha256": "c42807f764125ffd52269e8ee8982ee1aaf21041fb9455454161a80858859cd5",
+        "size_bytes": 134404985
       },
-      "deltas": [
-        {
-          "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.14-to-1.0.15.delta.zip",
-          "sha256": "eaaa4de5f39cb41004f194b64e799c4cf4e0d6151ccb587dc93de7d61cfcc724",
-          "size_bytes": 53423398,
-          "from_version": "1.0.14"
-        }
-      ]
+      "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
       "file_name": "MAN-1.0.15-mac-arm64.dmg",
       "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.15/MAN-1.0.15-mac-arm64.dmg",
-      "sha256": "2d54a40c7fccbf01f5291576a43c7913b75620abcff3d6a6e1df9c5a83a25b88",
-      "size_bytes": 174011209,
+      "sha256": "98b7f1d57615776f5e7b77d59cc0db37d631329d1e0484c0d9a9f35573af3bd7",
+      "size_bytes": 174610108,
       "min_os": "macOS 14",
       "deltas": []
     },
@@ -57,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "m5U7DpI1wobt6FnD1OJlVWCkNJAm8U86LB/zen3vcncBaLq+qKC+1+MGgGibUBGopTCB80WgNWzNWNkFSHmLDQ=="
+    "value": "unlbhzH6OQOtZWTr2XEcPc+KZtmk5ZzGcIYMPBV7NnF+/onKtYs7GT/TZTpC3Zi6xdYueYyweSVIj9c4k9PTDw=="
   }
 }

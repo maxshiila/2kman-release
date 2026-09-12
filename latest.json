@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.16",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.16",
+  "version": "1.0.17",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.17",
   "release_notes": {
-    "user_message": "27开放场:全新助攻模式(运行中可切,到位自动高吊传球)、新增弧线投篮档与实时调参、要球更快范围更大且移动不中断、传球组合不再被打断。街球之王:传球站位重做不再来回拉锯,开场立刻要球,空接提速(3.1→1.6秒)且自动对局可调每段时长。PS5按键延迟大幅优化,花屏与「找不到PS5」修复。防守篮板触发重做更果断,我方出手残留不再误抢板。Xbox多账号并存,多开数据隔离。更新失败不再静默回滚(需覆盖安装生效)。随包配置自动更新,无需重新校准。macOS本版无更新。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.16.md"
+    "user_message": "手柄转正:手动串流支持 PS5/Xbox 物理手柄;修复中文输入法下激活码只能输一个字母;街球传球配置搬进主界面,空接收招新增花传,走位刹车提速;防守右摇杆开关开放到街球之王与开放场;修复 Xbox 约 4 小时必断链;修复 1.0.16 界面图标不显示;参数面板全新布局。建议所有用户升级。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.17.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,15 +16,15 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.16-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.16/MAN-1.0.16-win-x64.exe",
-      "sha256": "722e1c9fdc2020b1ff794242d0e1290952e14bf69707ad5af43350a129de2297",
-      "size_bytes": 135404691,
+      "file_name": "MAN-1.0.17-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.17/MAN-1.0.17-win-x64.exe",
+      "sha256": "8371a15eb121e5ff809191786d38b058dd84981c7fd0dc4a5aed00c12187a07c",
+      "size_bytes": 142611665,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.16/MAN-1.0.16.payload.zip",
-        "sha256": "c42807f764125ffd52269e8ee8982ee1aaf21041fb9455454161a80858859cd5",
-        "size_bytes": 134404985
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.17/MAN-1.0.17.payload.zip",
+        "sha256": "1681c4b0ec202a14d6c3a51b1c22b134635bd0f3212092957934c2528f5b5f0a",
+        "size_bytes": 141754781
       },
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "rSghuvQugxNmbGI5m+zFzAvr2+sFSTdInkof8J9tMmb8HIbRivy/5UcC7KM/CndrIFjwpPoWPgqFDCtFENhcBw=="
+    "value": "2pgttlOW/qlIfP4vjNE22tHrEIVejzbC8Ofg/9I1IUpon2VCflJn14wfY/5s1zyFt7PNy7TQ9nvezTLGzSCyBg=="
   }
 }

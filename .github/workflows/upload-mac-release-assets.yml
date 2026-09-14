@@ -1,0 +1,51 @@
+# mac 腿发布资产中转上传：本机跨境大文件上传到 uploads.github.com 会被
+# 持续重置（1.0.17 mac 腿实测直连与代理均失败），而本机到自有 R2 镜像
+# （dl.2kman.com）上行稳定。本工作流在 GitHub 侧从 R2 镜像拉取 DMG、
+# 校验 SHA-256 后以版本化名与稳定别名上传到指定 Release，绕开本机上行。
+# 仅处理传入的两个资产名，不触碰 Release 上任何既有资产（--clobber 只
+# 作用于本次上传的文件名）。
+name: upload-mac-release-assets
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v1.0.17)"
+        required: true
+      asset:
+        description: "Versioned asset name (e.g. MAN-1.0.17-mac-arm64.dmg)"
+        required: true
+      alias:
+        description: "Stable alias asset name (e.g. MAN-mac-arm64.dmg)"
+        required: true
+      sha256:
+        description: "Expected SHA-256 of the DMG"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download DMG from R2 mirror and verify checksum
+        run: |
+          curl -fL --retry 3 --connect-timeout 20 \
+            -o "dl.dmg" "https://dl.2kman.com/download/${{ inputs.asset }}"
+          echo "${{ inputs.sha256 }}  dl.dmg" | sha256sum -c -
+      - name: Upload to GitHub Release (versioned + stable alias)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp dl.dmg "${{ inputs.asset }}"
+          cp dl.dmg "${{ inputs.alias }}"
+          gh release upload "${{ inputs.tag }}" \
+            "${{ inputs.asset }}" "${{ inputs.alias }}" \
+            --clobber --repo "$GITHUB_REPOSITORY"
+      - name: Report remote asset digests
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/${{ inputs.tag }}" \
+            --jq '.assets[] | [.name, .size, .digest] | @tsv'

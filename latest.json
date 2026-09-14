@@ -31,10 +31,10 @@
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
-      "file_name": "MAN-1.0.16-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.16/MAN-1.0.16-mac-arm64.dmg",
-      "sha256": "0c7d67f536eb199397c9a9bce2f685b1926997c53bae29f0da5ba7530bc12817",
-      "size_bytes": 171993114,
+      "file_name": "MAN-1.0.17-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.17/MAN-1.0.17-mac-arm64.dmg",
+      "sha256": "8c94d95cbede486723d45a5b84b84672a9fef585a3e096cfe6899f3a6a46c8d8",
+      "size_bytes": 170459963,
       "min_os": "macOS 14",
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "2pgttlOW/qlIfP4vjNE22tHrEIVejzbC8Ofg/9I1IUpon2VCflJn14wfY/5s1zyFt7PNy7TQ9nvezTLGzSCyBg=="
+    "value": "pyKdpIVvSKUwmmznYNNBGj8IEc1dAWXhlr/N6dUASHIALzoX1clbmvUa/1t7ygryRmaxJZnBT249gjbQGjPPDw=="
   }
 }

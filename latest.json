@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.18",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.18",
+  "version": "1.0.19",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.19",
   "release_notes": {
-    "user_message": "挡拆投篮新增后撤步与随机战术玩法;挡拆出手升级为自动识别绿色窗口的完美出手,命中率明显提升,出手快慢可自调;街球之王默认参数全面升级;开放场可整体关闭防守;新增局间休息机制;修复部分电脑安装后打不开/监视器打不开/无画面;修复比赛结束后误进选队友页反复确认;修复 Xbox 长时间串流(约4小时)断链与画面卡住;部分用户实时进度打不开修复。建议所有用户升级。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.18.md"
+    "user_message": "挡拆随机战术升级：传球+篮板可单独加入随机池，圆左/圆右/弧线三区域可分别设置打法组合；挡拆与自动投篮新增近景走位四项可调参数（高级参数）；绿色窗口出手追踪增强，偶发过晚与首局第一球偏差明显减少；街球之王选人环节重大稳定性修复，不再出现「画面中断，正在恢复连接」；结算后失败弹窗只确认一次，不再反复误按；金币等结算数字等真正稳定后再入账；监视器传球区域显示与实际判定完全一致；更多玩法默认参数按实机调校对齐（已保存个人设置不受影响）；网络错误自动恢复扩展到开放球场与篮球26。建议所有用户升级。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.19.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,15 +16,15 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.18-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.18/MAN-1.0.18-win-x64.exe",
-      "sha256": "d1e669d63b7cd8a4364f7a220f291e1c9e9f50ccf192f22771c83a4861194378",
-      "size_bytes": 144608378,
+      "file_name": "MAN-1.0.19-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.19/MAN-1.0.19-win-x64.exe",
+      "sha256": "2c0f6b617db6e4df2b9a04aeed263eb206783aea9d4b4fffee05a159a3f8f259",
+      "size_bytes": 144652064,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.18/MAN-1.0.18.payload.zip",
-        "sha256": "72f48d407ea70abbe7eb5640207824737b028f5c35196ac7ceca5c5772367bbd",
-        "size_bytes": 143239472
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.19/MAN-1.0.19.payload.zip",
+        "sha256": "15899c00e307a4833a055cd2a8087da30e74a9de19523d53ec2f11a59c1cd169",
+        "size_bytes": 143365147
       },
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "Y+uvb2mCr6YXmRPZpcZCzSFw/0MOUx6umr/uV/Qm9YNu3HwPUAawNmQFynifYYHkafS+LrLc4gbDiqXVs6nKDg=="
+    "value": "dSrw4fIKcB7y9ZiVDN2mI8K5hPq28UWK0yhTu+RXqQO9ih9Nvh2AhS/yX/pvnzpO6DZaVIKXVCiPbyiC9RD6Dw=="
   }
 }

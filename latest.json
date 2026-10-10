@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.20",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.20",
+  "version": "1.0.21",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.21",
   "release_notes": {
-    "user_message": "主界面与运行数据重新整理，新增整体投篮命中率；随机战术支持抽取比例，圆左、圆右、弧线与左右底角支持独立调参和左右联动；新增按动作反馈小幅校准投篮时机，优化投篮条追踪、持球与缓慢走位判断、街球之王选人和界面识别；PS5 手动串流新增分辨率与帧率选择；完善英文文字显示和更新安装衔接。本次为 Windows 更新。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.20.md"
+    "user_message": "新增假传投篮，支持固定使用、随机权重与独立锁绿选项；常用参数改为滑条并保留精确数字输入；新增比赛与休息设置入口，更新山谷花园区域默认值；优化走位、要球与出手衔接、随机换对手及选人页面复核；命中率按有效反馈出手和完美反馈统计；减少串流处理开销，完善启动、连接和停止提示。本次为 Windows 更新，Mac 保持 1.0.17。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.21.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,15 +16,15 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-1.0.20-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.20/MAN-1.0.20-win-x64.exe",
-      "sha256": "5e609e41621483ffc69b5285f9b947c7de7d299aa1e8db08be40baeb38588a34",
-      "size_bytes": 146065683,
+      "file_name": "MAN-1.0.21-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.21/MAN-1.0.21-win-x64.exe",
+      "sha256": "f5d7a57fdd4b573ea99a0b7010620375c22a20c61497b6c3099cee12c4b9d0e4",
+      "size_bytes": 146105201,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.20/MAN-1.0.20.payload.zip",
-        "sha256": "3f85916fbdf025833a51692944434ebf4f1993178ecb242e85ad8987d8a550b7",
-        "size_bytes": 145354832
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.21/MAN-1.0.21.payload.zip",
+        "sha256": "2f270e9ff84fd514f55203084f86e86b19a79f2bea75ea07b8532b73be6da962",
+        "size_bytes": 145404087
       },
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "TrHO34R//8VudK7xEdn6iale9q/4RlSHSUM7C0747pBcwrjgoS+8p6J30+PWohQzMbI7HoSSd401q2bO5CmzCQ=="
+    "value": "DmDUN/VRqAbxgA10i1oyfNB6NTYRY6dAJgIqMszQJwAdh6EJOZwxS+kIYlIEpXBMV4ZICOpiSAtqyzmCiccrBw=="
   }
 }

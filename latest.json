@@ -15,7 +15,7 @@
     "windows-x64": {
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
-      "available": true,
+      "available": false,
       "file_name": "MAN-1.0.21-win-x64.exe",
       "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.21/MAN-1.0.21-win-x64.exe",
       "sha256": "f5d7a57fdd4b573ea99a0b7010620375c22a20c61497b6c3099cee12c4b9d0e4",
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "DmDUN/VRqAbxgA10i1oyfNB6NTYRY6dAJgIqMszQJwAdh6EJOZwxS+kIYlIEpXBMV4ZICOpiSAtqyzmCiccrBw=="
+    "value": "O8/Wt7sB5fPkvZwdjtkomXtv7X1BucI5QwIuspSMuhawkL3XMlmYYpk7q/cquekWH7yz0Xhn/9+j7pjIzZJUAg=="
   }
 }

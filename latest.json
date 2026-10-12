@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "1.0.21",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.21",
+  "version": "1.0.22",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v1.0.22",
   "release_notes": {
-    "user_message": "新增假传投篮，支持固定使用、随机权重与独立锁绿选项；常用参数改为滑条并保留精确数字输入；新增比赛与休息设置入口，更新山谷花园区域默认值；优化走位、要球与出手衔接、随机换对手及选人页面复核；命中率按有效反馈出手和完美反馈统计；减少串流处理开销，完善启动、连接和停止提示。本次为 Windows 更新，Mac 保持 1.0.17。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.21.md"
+    "user_message": "优化山谷花园弧线与底角走位，开放起步加速、减速和提前停步调整；区域参数按所选打法展示；更新默认设置并新增默认开启的回防开关；修复失败结算不继续并支持重试，优化选人、换对手和金币页面处理；完善人物、攻防区域及移动状态显示；出手释放延迟按配置保存；修复PS5/Xbox手动画质设置及PS5串流声音。本次为Windows更新，Mac保持1.0.17。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-1.0.22.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -15,16 +15,16 @@
     "windows-x64": {
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
-      "available": false,
-      "file_name": "MAN-1.0.21-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.21/MAN-1.0.21-win-x64.exe",
-      "sha256": "f5d7a57fdd4b573ea99a0b7010620375c22a20c61497b6c3099cee12c4b9d0e4",
-      "size_bytes": 146105201,
+      "available": true,
+      "file_name": "MAN-1.0.22-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.22/MAN-1.0.22-win-x64.exe",
+      "sha256": "5c2c4f7ce1dd9c42d84e782549897a0e36a92bf99cc4d42167faca2c862ef49c",
+      "size_bytes": 147000519,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.21/MAN-1.0.21.payload.zip",
-        "sha256": "2f270e9ff84fd514f55203084f86e86b19a79f2bea75ea07b8532b73be6da962",
-        "size_bytes": 145404087
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v1.0.22/MAN-1.0.22.payload.zip",
+        "sha256": "e4855cf35b3efbe6c219ac3c2d1601bbce0ea68a0d50eee758df8d1bc71fefab",
+        "size_bytes": 146408894
       },
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "O8/Wt7sB5fPkvZwdjtkomXtv7X1BucI5QwIuspSMuhawkL3XMlmYYpk7q/cquekWH7yz0Xhn/9+j7pjIzZJUAg=="
+    "value": "7D29xPMr8iveBX4SvhXT8iCZFkwNfK9Sh6Tr+JG92D5vQttXJhOItKXLaCRKfkhE59bGa8vKmTdrwc91Ch4yCw=="
   }
 }

@@ -5,7 +5,7 @@
   "version": "2.0.2",
   "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.2",
   "release_notes": {
-    "user_message": "修复 2.0.1 一直提示更新到 2.0.1、点更新没有反应的问题；界面版本号显示正确。PS5 原生串流断线重连更稳；街球之王弧线贴边走位、到位急停更准；锁绿出手期间监视器更流畅。2.0 是全新代码，遇到问题请在群里反馈配置名、主机（PS5 / Xbox）和截图。",
+    "user_message": "MAN 2.0 正式版：整套程序从底层重写为原生程序，不再依赖 Python。串流、画面识别、按键发送全部重做，安装包从一百多 MB 缩小到约 30MB，启动更快、占用更低，低配电脑上锁绿更跟手。配置改为云端下发，配置更新后下一次开始即生效，不用重装软件；配置和更新包都有数字签名校验。比赛参数新增局数和休息随机浮动，参数面板重新整理并支持细调。支持手动串流、2K26 开放球场 / 街球之王、2K27 开放球场 / 街球之王 / MT 三威胁突破，2K27 MC 剧院单挑内测开放。Mac 与 Windows 同步发布。本版本同时修复了更新提示和 PS5 断线重连等问题。",
     "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.2.md"
   },
   "mandatory": false,
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "YZ3p76/11NfJFqOzZQQViJR/CUK6zbKkjSv7teNlRCoBZO4q91wX02W9sJDndymXeQTXxWVPacqV+P1kjNr/DQ=="
+    "value": "Q1ipI4nnk6Vs96N2ymPDAINIairYTI+hrrKcAn9vEStBtEySNajVE6GRQ+lthPEn2uQ7EidQR1NkppkWy/pyBQ=="
   }
 }

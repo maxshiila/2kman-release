@@ -10,7 +10,7 @@ MAN 正式客户端安装包与稳定频道更新清单。
 | macOS 13+ · Apple Silicon | **2.0.2** | [下载 DMG](https://dl.2kman.com/download/MAN-mac-arm64.dmg) | [备用下载](https://github.com/maxshiila/2kman-release/releases/download/v2.0.2/MAN-2.0.2-mac-arm64.dmg) |
 | macOS Intel | 暂未提供 | — | — |
 
-2.0.2 同时更新 Windows 和 Mac：修复 2.0.1 一直提示更新、点更新没有反应；PS5 串流重连更稳。已装 2.0.0 的用户请下载安装包覆盖安装。
+2.0.2 是 2.0 正式版，Windows 和 Mac 同步发布：整套程序用原生代码重写，配置改为云端下发。已装 2.0.0 的用户请下载安装包覆盖安装。
 
 [2.0.2 更新清单](RELEASE-NOTES-2.0.2.md) · [安装与使用教程](https://docs.2kman.com/guide/install/)
 

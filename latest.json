@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "2.0.4",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.4",
+  "version": "2.0.5",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.5",
   "release_notes": {
-    "user_message": "MAN 2.0 正式版：整套程序从底层重写为原生程序，不再依赖 Python。串流、画面识别、按键发送全部重做，启动更快、占用更低，低配电脑上锁绿更跟手。配置改为云端下发，配置更新后下一次开始即生效，不用重装软件；配置和更新包都有数字签名校验。比赛参数新增局数和休息随机浮动，参数面板重新整理并支持细调。支持手动串流、2K26 开放球场 / 街球之王、2K27 开放球场 / 街球之王 / MT 三威胁突破，2K27 MC 剧院单挑内测开放。2.0.4 修复：点开始时报「incomplete read」（配置改为本地缓存、只下载一次，安装包已自带配置），自动休息不生效，MT 突破第 1–3 档卡住，账号配对弹窗多处问题，赛后金币读数。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.4.md"
+    "user_message": "MAN 2.0.5：27 街球之王新增「背打抢板」「终结」两个内测玩法，「传球 + 篮板」改名「组织」并加入持球识别；投篮弧线按球场重新标定，参数界面改成白话。国内网络授权更稳：连不上时同时测试多条线路、先通先用，部分地区不用再开 VPN。修复 macOS 13 点开始闪退、Xbox 挂机约 4 小时卡死、PS5 重连后卡在「控制器已重新连接」。MT 三威胁突破第 2 层开放（未经测试）；剧院单挑暂时锁住，等 Season 2 场地更新。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.5.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,25 +16,25 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-2.0.4-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.4/MAN-2.0.4-win-x64.exe",
-      "sha256": "f6d5bf141d856b754305831e715ec28ef8abc854b6bbb963a8e373772bfa2d8c",
-      "size_bytes": 33408751,
+      "file_name": "MAN-2.0.5-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.5/MAN-2.0.5-win-x64.exe",
+      "sha256": "6e0113972d1e07ded2ab356fdde4a76ac343a4ef9fd161a797e2dfe5ef009096",
+      "size_bytes": 34001467,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.4/MAN-2.0.4.payload.zip",
-        "sha256": "4d043975ec5ce8e969c9f695951b3ec6ace362078af850b8c26c91660d0e6a90",
-        "size_bytes": 37923984
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.5/MAN-2.0.5.payload.zip",
+        "sha256": "4a298bc3f909c3d51546228221c640a8d9b1f6b4415d3bdc08f08a1f2a62d6b0",
+        "size_bytes": 38676051
       },
       "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
-      "file_name": "MAN-2.0.4-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.4/MAN-2.0.4-mac-arm64.dmg",
-      "sha256": "9c688220c66c4ce35d4018fabadba4335e069fd155b34d3cc8e2680b89899e6f",
-      "size_bytes": 34359487,
+      "file_name": "MAN-2.0.5-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.5/MAN-2.0.5-mac-arm64.dmg",
+      "sha256": "827de25b2fea82baa42c37f8b4deff5837581b38170b0a03beef99686226a3a0",
+      "size_bytes": 34748892,
       "min_os": "macOS 13",
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "Fs/rIt0mHkB3z6cllUeXUAaw8CiNFpkaxJUmU9qR2yfnEDmrSGUTbD3N+W/ZgdCQbitos59lSJYV5KgVqc3eDg=="
+    "value": "D+J3BmvZDpcxHBGRNLYbnJ5w0uVJhLWGy6ajPAOVuSeLwMNAjU0MtwN7hERP0fw3PzczXm+15CIGfpP3BpBHCQ=="
   }
 }

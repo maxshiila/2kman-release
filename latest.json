@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "2.0.6",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.6",
+  "version": "2.0.7",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.7",
   "release_notes": {
-    "user_message": "MAN 2.0.6：新增 MT 关键时刻、MT 称霸赛、街球之王成就三个配置（内测），剧院 1v1 按 Season 2 新场地重新开放（内测，只允许好友同玩）。27 街球之王能认出整块球场，投篮区域按米定、走位重做、组织新增识别区域；背打抢板、终结新增小弧线勾手区和禁区启动区。Xbox 手柄提示卡住会自动重开游戏，远程操控更快。新配置请先按教程设好视角和球员指示器。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.6.md"
+    "user_message": "MAN 2.0.7：剧院新增「冲刺上篮」出手方式，Season 1 木地板和 Season 2 场地都能打，释放延迟最大可调到 600。场地识别更稳更准：远处区域不再晃，镜头推拉时区域紧跟，攻防换边不再跳。走位统一按「米」，参数说明全部改成白话。Xbox 连上自动选默认玩家，卡住会自动重开游戏；自动休息和设置对得上。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.7.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,25 +16,25 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-2.0.6-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.6/MAN-2.0.6-win-x64.exe",
-      "sha256": "834e11cfb421291731371cbe41db346ba9c5c1413b738a9394ec3f1eb8c7f3aa",
-      "size_bytes": 41441678,
+      "file_name": "MAN-2.0.7-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.7/MAN-2.0.7-win-x64.exe",
+      "sha256": "77a0e8b8585a80dac7544519d2efcbc36b6adbf5bd171a9f56749ee24a8f26dd",
+      "size_bytes": 41527673,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.6/MAN-2.0.6.payload.zip",
-        "sha256": "c6732d4b4f55c5cde2512eacaf4898b29cff0ca62e093ade643022cbac59768f",
-        "size_bytes": 46556300
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.7/MAN-2.0.7.payload.zip",
+        "sha256": "a25b1eeda8f5a03975bf7262eca24af6914415158ff22f37db06ad868208d40e",
+        "size_bytes": 46665889
       },
       "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
-      "file_name": "MAN-2.0.6-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.6/MAN-2.0.6-mac-arm64.dmg",
-      "sha256": "405fc0a74ea8f5d67d1854735b741736b5be0bb297d652691b96bfaf5ff574e5",
-      "size_bytes": 42037078,
+      "file_name": "MAN-2.0.7-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.7/MAN-2.0.7-mac-arm64.dmg",
+      "sha256": "128d6f2580d20d212baa3d514155584565ab96490379ec9e7b519213c0c8625c",
+      "size_bytes": 42192661,
       "min_os": "macOS 13",
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "GdA3z7y+jG/qdwgE0K2QUP1bYI48TCMrhvXap2YQZXDpXgi/ucQRgSFzuyILqcNHJvZ0eAHoOcfTfFF2yLm5Ag=="
+    "value": "hah7Luggbu1c+uvjC8HCeVYpS6/FNRiX5c75irNllWFiFQPKk7c1g3iV6HAwRrt3tiPtNwCsxsXwrI77YqALAA=="
   }
 }

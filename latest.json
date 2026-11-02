@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "2.0.10",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.10",
+  "version": "2.0.11",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.11",
   "release_notes": {
-    "user_message": "MAN 2.0.10：足球27 黑切开放内测（需两人配合：角色一人非守门员一人守门员，最喜爱的俱乐部相同）；街球之王固定圆区诱导盖帽开放内测；单挑更快。修复 2.0.9 部分赛后金币被记成 0；剧院冲刺上篮不再转圈；多开共用账号。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.10.md"
+    "user_message": "MAN 2.0.11：MC 剧院随机组合可勾冲刺上篮，冲刺上篮可设目标点前后，没看到投篮条不再误转防守。修复 MT 三威胁卡在选人界面、足球27 黑切没发球就退和门将走位。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.11.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,25 +16,25 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-2.0.10-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.10/MAN-2.0.10-win-x64.exe",
-      "sha256": "4299b502983d1d6921ba8e1ce9d65f6e04242f1d81c33e6bcb5f3386210cf633",
-      "size_bytes": 45491801,
+      "file_name": "MAN-2.0.11-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.11/MAN-2.0.11-win-x64.exe",
+      "sha256": "eaf20bb8687d81247bf5825bb260e7626817421158951afa5b0c3398e2c26bb3",
+      "size_bytes": 45549158,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.10/MAN-2.0.10.payload.zip",
-        "sha256": "59372d94e49625c6a9fae5a8923f6e7ead0acc877065167715fa2c47f4e23e53",
-        "size_bytes": 51159927
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.11/MAN-2.0.11.payload.zip",
+        "sha256": "696f0b8813dd1aaa8fffa9a79565daf903e01075c30a31c764f3dc22253b8720",
+        "size_bytes": 51255287
       },
       "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
-      "file_name": "MAN-2.0.10-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.10/MAN-2.0.10-mac-arm64.dmg",
-      "sha256": "0b10fea057fd2c7af088639699749c3d0aebf5eb22462aedf19c9026a7639eca",
-      "size_bytes": 42545303,
+      "file_name": "MAN-2.0.11-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.11/MAN-2.0.11-mac-arm64.dmg",
+      "sha256": "133dd51d403b3619bc582bafc5066c7b926cee8f4d45a54e78bd7fb9b5e11f49",
+      "size_bytes": 42594787,
       "min_os": "macOS 13",
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "JlozriBfkAGJW0+Tvio9tzZPoKI/BzK03sfkHEqTG+hwwi+F8h4iHoGK+aapilr1jYFRlT9pBs1Bm0Yvi2mSCQ=="
+    "value": "i/h6zpxlcjqywEwGSYeUvx0CclH91s/cJrwcw9wbMgzsvAht8VXrWT+QjJuryAPoJC4mIPtFCwPGQcValKIqBg=="
   }
 }

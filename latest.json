@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "2.0.16",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.16",
+  "version": "2.0.17",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.17",
   "release_notes": {
-    "user_message": "MAN 2.0.16：界面全面改版，新增活动中心；修复成就和黑切显示即将上线、选不了；街球之王选队友不再卡住停机，黑切配对码可输入，更新下载更快。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.16.md"
+    "user_message": "MAN 2.0.17：修复 Xbox 确认提示被误停、繁体英文读不到金币停机、快速重开白等等会让运行停下或空转的问题；称霸赛新增罚球开关；对手名单改为多栏名牌面板。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.17.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,25 +16,25 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-2.0.16-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.16/MAN-2.0.16-win-x64.exe",
-      "sha256": "f82abac5e538d53bea000b5bbc311986dcad2bdf8e17bdedc64460a6e257864d",
-      "size_bytes": 45767225,
+      "file_name": "MAN-2.0.17-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.17/MAN-2.0.17-win-x64.exe",
+      "sha256": "c7d2434ca9cdb49aebf5364b438c965c8af3ce016c1741b88a7c944284fabdc2",
+      "size_bytes": 45761293,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.16/MAN-2.0.16.payload.zip",
-        "sha256": "4f4465ee2c10ba76571d46197b09945d3d81336b087996501fd2a185d807b6e1",
-        "size_bytes": 51538991
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.17/MAN-2.0.17.payload.zip",
+        "sha256": "9a5c58912c959d27e6c587229e0acef1a2b877d6656e93c0981de48665630a58",
+        "size_bytes": 51549029
       },
       "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
-      "file_name": "MAN-2.0.16-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.16/MAN-2.0.16-mac-arm64.dmg",
-      "sha256": "5d425314565dce83860e2e09749565e7321410366abb4e1f93c8031e405a6fab",
-      "size_bytes": 43538644,
+      "file_name": "MAN-2.0.17-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.17/MAN-2.0.17-mac-arm64.dmg",
+      "sha256": "f1afd93b1b7fa70dfc8a2ef4abb6912d3a276a1f8e4f07762107ee90c7b52c1f",
+      "size_bytes": 43590604,
       "min_os": "macOS 13",
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "GDPqVtRXUTTU1hxIafwt8RK4olQi/nCboTgRfne1RSrJQEymiEg0BFKbIuGmKHuNIJbyzq6zf1AQ+1agkg3mCg=="
+    "value": "Scy0H8Yd4gFLA6HMYWKbpc3SGm9yYuGw62iQMEaw+feCkl7XQnW3dGhC/OPEtFD9JWdK+s65HAS9Po51IkLAAw=="
   }
 }

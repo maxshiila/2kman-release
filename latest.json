@@ -2,11 +2,11 @@
   "schema_version": 2,
   "channel": "stable",
   "status": "published",
-  "version": "2.0.19",
-  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.19",
+  "version": "2.0.20",
+  "release_page": "https://github.com/maxshiila/2kman-release/releases/tag/v2.0.20",
   "release_notes": {
-    "user_message": "MAN 2.0.19：街球之王成就的试炼在对手的公园也能认准球员和区域，全部解锁时选对手不再一直上下翻；称霸赛能认出历史称霸赛的比赛画面，原版打法边线球等不到计时也会自动发球。",
-    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.19.md"
+    "user_message": "MAN 2.0.20：MT 称霸赛战术版设 3-2 联防先认出「半场设置」菜单再选、选完确认并定时复查，主界面参数精简，能认出历史和 WNBA 称霸赛；MT 进场停在「比赛」标签不再来回跳；正式版 PS5 十字键恢复正常。",
+    "url": "https://github.com/maxshiila/2kman-release/blob/main/RELEASE-NOTES-2.0.20.md"
   },
   "mandatory": false,
   "mandatory_reason": "",
@@ -16,25 +16,25 @@
       "installer_type": "windows-exe",
       "layout": "versioned-v1",
       "available": true,
-      "file_name": "MAN-2.0.19-win-x64.exe",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.19/MAN-2.0.19-win-x64.exe",
-      "sha256": "9148181c7610701320793d0fc06c73315eed8eb94c5e01c5ccc87363cd63c0a2",
-      "size_bytes": 45781653,
+      "file_name": "MAN-2.0.20-win-x64.exe",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.20/MAN-2.0.20-win-x64.exe",
+      "sha256": "9c42e9e122c05f57ad3903319f7a19353cd46d7fe4f7c96fec4aad0cb78bc85e",
+      "size_bytes": 45816293,
       "min_os": "Windows 10 x64",
       "payload": {
-        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.19/MAN-2.0.19.payload.zip",
-        "sha256": "c054032049d6909b35bcfca0012ae816f39c3fd3fc3c5b1334b411634f79c394",
-        "size_bytes": 51576447
+        "url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.20/MAN-2.0.20.payload.zip",
+        "sha256": "1ab5b1508101804a34a8a0b9c12d96d3bf8ef9fa0b0193d70d92bd2b6100d7d5",
+        "size_bytes": 51603252
       },
       "deltas": []
     },
     "macos-arm64": {
       "installer_type": "macos-dmg",
       "available": true,
-      "file_name": "MAN-2.0.19-mac-arm64.dmg",
-      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.19/MAN-2.0.19-mac-arm64.dmg",
-      "sha256": "6fdf9598a2f4d4e2485815109a98fd8308513c912492df163f842527dc05fc8f",
-      "size_bytes": 42820808,
+      "file_name": "MAN-2.0.20-mac-arm64.dmg",
+      "origin_url": "https://github.com/maxshiila/2kman-release/releases/download/v2.0.20/MAN-2.0.20-mac-arm64.dmg",
+      "sha256": "da31cc5e0a988bda8a2a6f9dafd08a3b53213718e6543a9bf5c02e7c2dc7e2ad",
+      "size_bytes": 42822353,
       "min_os": "macOS 13",
       "deltas": []
     },
@@ -50,6 +50,6 @@
   "signature": {
     "algorithm": "Ed25519",
     "key_id": "man-release-ed25519-v1",
-    "value": "L9EAVea4bbJhAzfaPaAhZIAB1nnL0Yfqbcca2QjznUAYLczsGh8zVcaFOpvU7WPraZC+5RpLiROV0r0jnXsIDw=="
+    "value": "tQIhFqFda/lULJj1tOPL2zZQmMLwuEb0Ck8WwLNrqwJhW2VFhfuv3dXGt5y6QHWTecUcs1GgTUcg0F7a3M9TCQ=="
   }
 }
